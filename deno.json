@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run --watch --allow-net --allow-env --allow-run server.js"
+  },
+  "imports": {
+    "@apollo/server": "npm:@apollo/server@^4.12.0",
+    "graphql": "npm:graphql@^16.11.0"
+  }
+}
